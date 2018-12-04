@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+  before_install:
+    - docker build -t patrickblais/frontend -f Dockerfile.dev .
+
+script:
+  - docker run patrickblais/frontend npm run test -- --coverage
