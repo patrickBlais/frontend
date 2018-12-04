@@ -21,7 +21,7 @@ class App extends Component {
           </a>
         </header>
         <p className="App-intro">
-          I was modified for Rachid!
+          I was modified for Eric!
         </p>
       </div>
     );
